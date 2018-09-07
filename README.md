@@ -17,4 +17,4 @@ Nel progetto sono inclusi tre datasets (tictactoe ,balance_scale). Per eseguire 
 
 ## Riferimenti
 
-Nella realizzazione del progetto è stato usato il codice proveniente dal repository GitHub [aima-python](https://github.com/aimacode/aima-python)
+Nella realizzazione del progetto è stato usato il codice proveniente dal repository GitHub [aima-python](https://github.com/aimacode/aima-python) e i datasets reperibili dall’[UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)
