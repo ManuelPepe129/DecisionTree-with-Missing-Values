@@ -1,7 +1,7 @@
 from utils import cross_validation, remove_values, handle_missing_values
 
 
-def test(dataset, trials=20):
+def test(dataset, trials=1):
     print("Testing " + dataset.name + " dataset:")
     print("")
     for i in range(4):
@@ -30,6 +30,7 @@ def test(dataset, trials=20):
         fold_errT = '%.4f' % round(fold_errT * 100, 6)
         fold_errV = '%.4f' % round(fold_errV * 100, 6)
 
-        print("Training errors: " + str(fold_errT) + "%")
+
+        print("Training errors: " + str(fold_errT ) + "%")
         print("Validation errors: " + str(fold_errV) + "%")
         print("")
